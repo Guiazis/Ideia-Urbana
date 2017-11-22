@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+  font-family: "century gothic";
+}
+nav{
+  background-color:rgb(40,50,45);
+  position: relative;
+  height: 75px;
+  width: 100%;
+}
+.header-logo{
+  width: 200px;
+  height: 50px;
+}
+.header-img {
+  margin: 10px 30px;
+  width: 200px;
+  height: 50px;
+  background: white;
+  border-radius: 5px;
+}
+.dif{
+  position: absolute;
+  top: 70px;
+  clip-path: polygon(100% 0, 100% 100%, 50% 95%, 0 100%, 0 0);
+  width: 100%;
+}
+
+#dif-eng{
+  position: absolute;
+  top:500px;
+  padding-right: 5vw;
+  right: 0;
+}
+#dif-arq{
+  position: absolute;
+  top:500px;
+  padding-left: 10vw;
+}
+#info{
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+#futuro{
+  text-align: center;
+  padding: 10px 0;
+}
+.title{
+
+}
+.duas-colunas {
+  padding-bottom: 20px;
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid #cccccc;
+  column-span: all;
+  column-width: ;
+}
+.conteudo{
+  padding: 0 15px;
+  text-indent:4em;
+  text-align: justify;
+}
+#mescla{
+  padding: 0 20px;
+  text-indent:4em;
+  text-align: justify;
+}
+#duv-img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left:350px;
+}
+.texto{
+  position: absolute;
+  top:550px;
+}
